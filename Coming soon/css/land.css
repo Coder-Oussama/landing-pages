@@ -1,0 +1,215 @@
+@font-face {
+    font-family: ar-font;
+    src: url(../fonts/Cairo-SemiBold.ttf);
+}
+body{
+    direction: rtl;
+    font-family: ar-font;
+}
+header{
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+header .brand {
+    width: auto;
+    display: inline-block;
+    padding: 20px 10px;
+    margin: 50px auto;
+    border-bottom: 5px solid #454545;
+  }
+  
+  header .page-heading h1 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 75px;
+    color: #fff;
+  }
+  
+  header .page-heading p {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 25px;
+    color: #acacac;
+  }
+  
+  header .counter {
+    width: 60%;
+    margin: 60px auto;
+    padding: 30px;
+  }
+  
+  header .counter .is-countdown .countdown-section {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  header .counter .is-countdown .countdown-section .countdown-amount {
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(249, 253, 179);
+  }
+  
+  header .counter .is-countdown .countdown-section .countdown-period {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  header .send-notification p {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  header .send-notification .input-group ,footer .input-group{
+    width: 30%;
+    margin: 0 auto;
+    -webkit-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    transform: translateY(30%);
+  }
+  
+  header .send-notification .input-group input, footer .input-group input {
+    border-radius: 0;
+    font-size: 18px;
+    font-family: ar-font;
+    border-width: 2px;
+    border-color: #726161;
+    height: auto;
+  }
+  
+  header .send-notification .input-group button{
+    border-radius: 0;
+    background-color: #ffce00;
+    padding: .5rem 1.5rem;
+  }
+  header .send-notification .input-group .alert{
+    display: none;
+    position: absolute;
+    top: 110%;
+    right: 0;
+    left: 0;
+  }
+  
+  section.features {
+    padding: 100px 0;
+    position: relative;
+    text-align: right;
+  }
+  
+  section.features h2 {
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: #555;
+  }
+  
+  section.features .media{
+    border: 4px solid #e6e6e6;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+    position: relative;
+    max-height: 190px;
+    text-align: right;
+  }
+  section.features .media .media-body{
+      text-align: center;
+  }
+  section.features .media .media-body h5{
+    font-size: 24px;
+    color: #555;
+  }
+  
+  section.features .media .media-body p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #9c9c9c;
+  }
+  
+  section.features div[class*="col-"]:nth-child(even) {
+    text-align: center;
+  }
+  footer{
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  footer .top-footer .overlay{
+      background-color: rgba(255, 204, 0, 0.7);
+      padding: 60px 0;
+  }
+  footer .top-footer .overlay h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin: 0 auto 30px;
+  }
+  footer .top-footer .overlay .input-group {
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  footer .top-footer .overlay .input-group input {
+    border-radius: 0;
+    font-size: 18px;
+    font-family: ar-font;
+    border-color: #fff;
+    height: auto;
+  }
+  
+  
+  footer .top-footer .overlay .input-group button {
+    border-radius: 0;
+    background-color: #7e7373;
+    padding: .5rem 1.5rem;
+ }
+footer .top-footer .overlay .alert {
+    display: none;
+    position: absolute;
+    top: 110%;
+    right: 0;
+    left: 0;
+}
+footer .contact {
+  background-color: rgba(28, 28, 28, 0.9);
+  padding: 60px 0 10px;
+  color: white;
+}  
+footer .contact  h3{
+  font-size: 30px;
+  margin: 0 auto 30px;
+}
+.list-inline-item{
+  margin: 0 5px;
+
+}
+footer .contact ul{
+  margin: 0 5px;
+  margin-left: 50px;
+}
+footer .contact ul li a{
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.14);
+  color: #fff;
+  font-size: 1.2rem;
+}
+footer .contact ul li a:hover{
+  background-color: #ffce00;
+}
+footer .contact hr{
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 40%;
+  margin-top: 50px;
+}
+footer .contact p a{
+  color: #b4b4b4;
+}
+footer .contact p a i{
+  color: #ffce00;
+  margin-left: 5px;
+}
